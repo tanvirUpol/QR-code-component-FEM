@@ -14,36 +14,38 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Outfit', sans-serif;
-    background-color: #d6e2f0
+    background-color: #d6e2f0;
+    
+    
 }
 
 
-.card{
- width: 320px;
- text-align: center;
+main{
+ max-width: 320px;
  background-color: #fff;
- padding: 16px;
+ padding: 1rem;
  border-radius: 20px;
  
 }
 
-.card img {
+ img {
     width: 100%;
     border-radius: 10px;
 }
 
-.card .title{
-    font-size: 22px;
+ .title{
+    font-size: 1.375rem;
     color: #1f3251;
     font-weight: 700;
-    margin:  24px 0 15px 0;
-
+    margin:  0.938rem;
+    text-align: center;
 }
 
 
-.card .info{
-    font-size: 16px;
+ .info{
+    font-size: 0.9375rem;
     color: #7b879d;
-    margin-bottom: 20px;
-    letter-spacing: 0.015em;
+    margin:  0.938rem;
+    letter-spacing: 0.015rem;
+    text-align: center;
 }
